@@ -23,5 +23,19 @@ int main() {
         k++;
     } while (k <= 8);
 
+    //Movimento do CAVALO - 2 casas para baixo e 1 casa para esquerda
+    printf("\nMovimento do Cavalo:\n");
+
+    int movimentocavalo = 1;
+
+    while(movimentocavalo--)
+    {
+        for (int i = 0; i <= 2;i++)
+        {
+            printf("Baixo\n");  //Imprime "Baixo" duas vezes
+        }
+         printf("Esquerda\n"); //Imprime "Esquerda" uma vez
+    }
+
     return 0;
 }
